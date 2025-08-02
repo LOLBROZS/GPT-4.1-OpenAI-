@@ -639,7 +639,7 @@ function Install-PythonPackages {
             Write-Host "✓ Installed $package" -ForegroundColor Green
         }
         catch {
-            Write-Host "✗ Failed to install $package: $($_.Exception.Message)" -ForegroundColor Red
+            Write-Host "✗ Failed to install $package`: $($_.Exception.Message)" -ForegroundColor Red
         }
     }
 }
